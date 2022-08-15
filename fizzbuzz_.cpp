@@ -17,7 +17,13 @@ int main()
            {
            cout << "Fizz" << endl;
             }
-     
+        else
+           {
+             if(num%5==0)
+               {
+                cout << "Buzz" << endl;
+               }
+			   
               else
                 cout << num << endl;
            }
