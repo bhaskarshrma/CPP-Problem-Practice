@@ -4,9 +4,9 @@ using std::cin;
 using std::endl;
 
 
-void incrementPassByReference(int var)
+void incrementPassByReference(int &var)
 {
-        var++;
+        var=var+1;
 }
 
 int main()
