@@ -5,7 +5,7 @@
 using namespace std;
  
 
-void revStr(string &str)
+void revStr(string &str) // Function to reverse a string
 {
     int len = str.length();
     int n = len-1;
@@ -14,7 +14,7 @@ void revStr(string &str)
     while(i<=n)
 	{
         
-        swap(str[i],str[n]);
+        swap(str[i],str[n]);//Using the swap method to switch values at each index
         n--;
         i++;
 	}
@@ -25,7 +25,7 @@ void revStr(string &str)
 int main()
 {
     string str = "Happy-Birthday";
-    reverseStr();
+    reverseStr(str);
     cout << str;
 }
 
