@@ -15,5 +15,9 @@ int main()
   cout << "long long int : " << sizeof(long long int) << endl;
   cout << "unsigned long long int : " << sizeof(unsigned long long int) << endl;
   cout << "signed char : " << sizeof(signed char) << endl;
+  cout << "unsigned char : " << sizeof(unsigned char) << endl;
+  cout << "wchar_t : " << sizeof(wchar_t) << endl;
+  cout << "float : " << sizeof(float) << endl;
+  cout << "double : " << sizeof(double) << endl;
 
 }
