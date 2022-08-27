@@ -11,8 +11,9 @@ struct movieDetails
   int year;
 } mine, yours;
 
+void printmovie(movieDetails movie); // function prototype
 
-int main() 
+int main()
 {
   mine.title = "Harry Potter and the Philosopher's Stone";
   mine.year = 2001;
