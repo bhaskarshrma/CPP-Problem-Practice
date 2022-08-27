@@ -1,4 +1,3 @@
-
 // Recursive C++ program to check if entered number is palindrome or not 
 
 #include <iostream> 
@@ -6,7 +5,7 @@ using namespace std;
  
 int rev(int n, int temp) 
 { 
-    if (n == 0) 
+    if (n == 0)
       return temp; 
 		 
 	else
@@ -31,3 +30,4 @@ int main()
 	{cout << "\nNo number is not a Palindrome" ;}
     return 0;
 }
+
