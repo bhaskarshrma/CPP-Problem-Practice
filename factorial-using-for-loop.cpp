@@ -1,3 +1,4 @@
+//CPP program to find factorial of a number using for loop
 
 #include<iostream>
 using namespace std;
@@ -5,10 +6,10 @@ using namespace std;
 int main()
 {
   int n, i;
-  int fact = 1;
+  unsigned long int fact = 1;
   cout << "Enter a number : " << endl;
   cin >> n;
-  for (i = n; i <= 1; i--)
+  for (i = n; i >= 1; i--)
   {
     fact = fact * i;
   }
