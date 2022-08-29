@@ -3,8 +3,9 @@ using namespace std;
 
 int main()
 {
-    int num,a=5,b=3;
-    num = (++b)*b-a;
-    cout<< num;
-    return 0;
+    int num,a=5,b=6,c=2;
+    num = (b++) * (++c) - a++;
+    cout<< "num = "<<num <<endl;
+    cout<< "b = "<<b<<endl;
+    cout<<"a = "<<a;
 }
