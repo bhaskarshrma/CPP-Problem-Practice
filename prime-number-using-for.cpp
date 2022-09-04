@@ -1,7 +1,9 @@
 // CPP program to check prime number using for loop
 
 #include<iostream>
-using namespace std;
+using std::cin;
+using std::cout;
+using std::endl;
 
 int main()
 {
