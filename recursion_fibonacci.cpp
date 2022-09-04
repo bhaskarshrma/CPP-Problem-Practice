@@ -1,7 +1,9 @@
-//CPP program to print Fibonacci series using recursion
+
+// C++ program to Display Fibonacci Series up to n number of terms
 
 #include <iostream>
-using namespace std;
+using std::cout;
+using std::cin;
 
 int fibo (int);
 
@@ -16,8 +18,9 @@ int main()
                 cout<<" "<< fibo(i);
                 i++;
         }
+}
 
-int fibo (num)
+int fibo (int num)
   {
         if((num==1)||(num==0))
         {
@@ -25,7 +28,7 @@ int fibo (num)
         }
         else
         {
-                return(fibo(num-1)+fibo(num-2));
+                return(fibo(num-1) + fibo(num-2));
         }
   }
-}
+

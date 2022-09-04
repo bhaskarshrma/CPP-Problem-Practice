@@ -15,7 +15,7 @@ int main()
 	
     for(i=0; i<amount; i++)
     {
-       rnum = (rand()%(last-first+1)) + first;
+        rnum = (rand()%(last-first+1)) + first;
         cout<<i+1<<"). "<<"\t"<<rnum<<endl;
     }
     cout<<endl;
