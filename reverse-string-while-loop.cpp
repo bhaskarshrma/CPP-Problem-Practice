@@ -8,8 +8,8 @@ int main()
 {
     char str[200], strTemp[200];
     int len, i=0;
-    gets(str);
     cout<<"Enter the String: ";
+    gets(str);
     while(str[i]!='\0')
         i++;
     len = i;
@@ -29,7 +29,7 @@ int main()
         str[i] = strTemp[i];
         i++;
     }
-    
+
     cout<<"\nReverse = "<<str;
     cout<<endl;
 
