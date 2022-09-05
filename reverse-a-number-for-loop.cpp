@@ -1,4 +1,4 @@
-
+// CPP program to reverse a postive number using for loop
 
 #include<iostream>
 using namespace std;
@@ -13,6 +13,6 @@ int main()
         rem = num%10;
         rev = rem + (rev*10);
     }
-    cout<<"\nReverse = "<<rev;
-
+    cout<<"\nReverse of entered number : "<<rev;
+    cout<<endl;
 }
