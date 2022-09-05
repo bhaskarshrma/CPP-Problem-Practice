@@ -15,7 +15,7 @@ int sum(int x, int y, int z = 0, int w = 0) //assigning default values to z,w as
 {
     return (x + y + z + w);
 }
- 
+
 // Driver Code
 int main()
 {
@@ -25,20 +25,18 @@ int main()
     for(i=0;i<=100;i++)
     { if (i%5==0)
        cout<< i<<endl;
-      
     }
-    
+
     cout<<i<<endl;
     // Statement 1
     cout << sum(10, 15) << endl;
-   
+
     // Statement 2
     cout << sum(10, 15, 25) << endl;
-   
+
     // Statement 3
     cout << sum(10, 15, 25, 30) << endl;
     
     //printf("Time taken in execution: %.4fsec\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
     cout<<"Time taken in execution: " << (double)(clock() - tStart)/CLOCKS_PER_SEC << " sec";
-    
 }
