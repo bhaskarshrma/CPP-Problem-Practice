@@ -4,7 +4,7 @@
 #include<iostream>
 using namespace std;
 
-class Num
+class Num  //declaration of class Num
 {
     public:
         int rev(int);
