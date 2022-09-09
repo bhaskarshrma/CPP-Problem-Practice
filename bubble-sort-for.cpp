@@ -1,3 +1,8 @@
+// Bubble Sort in CPP
+
+// To sort an array in ascending order using bubble sort in CPP
+// ask from user to enter the array size and its elements
+
 #include<iostream>
 using namespace std;
 int main()
@@ -21,10 +26,13 @@ int main()
             }
         }
     }
+
     cout<<"\nArray Sorted Successfully!\n";
+    
     cout<<"\nThe New Array is: \n";
     for(i=0; i<n; i++)
         cout<<arr[i]<<" ";
+
     cout<<endl;
     return 0;
 }
