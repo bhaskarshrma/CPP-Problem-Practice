@@ -1,4 +1,4 @@
-//CPP [rogram to Fibobacci series upto 'n' terms using a class Fibonacci
+//CPP Program to print Fibobacci series upto 'n' terms using a class Fibonacci
 
 #include <iostream>
 using namespace std;
@@ -10,10 +10,12 @@ public:
     void generate(int);
 };
 
-void Fibonacci::generate(int n){
+void Fibonacci::generate(int n)  // method definition
+{
     a = 0; b = 1;
-    cout << a << " " <<b;
-    for(int i=1; i<= n-2; i++){
+    cout << a << " " << b;
+    for(int i=1; i<= n-2; i++)
+    {
         c = a + b;
         cout << " " << c;
         a = b;
@@ -29,5 +31,4 @@ int main()
     cin  >> n;
     Fibonacci fib1;
     fib1.generate(n);
-    
 }
