@@ -1,3 +1,7 @@
+// Compare Two Strings without strcmp()
+
+/*To compare two strings in C++ programming, you have to ask from user to enter the two strings and compare them without using any type of library function like strcmp() as shown in the program */
+
 #include<iostream>
 using namespace std;
 
