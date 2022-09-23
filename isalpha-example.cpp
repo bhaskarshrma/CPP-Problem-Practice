@@ -1,3 +1,5 @@
+//In this cpp program, I have used a for loop and the isalpha() function 
+//to count the number of alphabets in strTest[]
 
 #include <cctype>
 #include <iostream>
@@ -10,11 +12,16 @@ int main() {
   clock_t tStart= clock();
   char strTest[] = "ad138kw+~!$%?kLo';]qjj#";
   int count = 0, check;
+
+  // loop to count the no. of alphabets in str
   for (int i = 0; i <= strlen(strTest); ++i) 
   {
 
+    // check if str[i] is an alphabet
     check = isalpha(strTest[i]);
 
+
+  // increment count if str[i] is an alphabet
     if (check)
       ++count;
   }
