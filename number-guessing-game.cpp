@@ -5,11 +5,11 @@
 using namespace std;
 
 int main()
-{  
+{
   srand(time(NULL));
-  int secNum=rand() % 25, guess=0;
+  int secNum=rand() % 50, guess=0;
 
-  do 
+  do
   {
     cout<<"Guess a number : ";
     cin>>guess;
@@ -17,7 +17,7 @@ int main()
      cout<<"too Big\n";
     if(guess<secNum)
      cout<<"too small\n";
-     
+
   } while (secNum!=guess);
 
   cout<<"You got it!!! "<<endl;
