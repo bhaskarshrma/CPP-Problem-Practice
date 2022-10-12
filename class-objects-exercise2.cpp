@@ -9,8 +9,6 @@ using std::string;
 
 class GradeBook
 {
-    
-
     public:
     void setCourseName(string name)
     {
